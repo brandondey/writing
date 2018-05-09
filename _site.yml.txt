@@ -1,0 +1,9 @@
+name: “Writing Website“
+output_dir: "." 
+navbar:
+  title: "Writing Website“
+  left:
+    - text: "Overview"
+      href: index.html
+    - text: “Article 1”
+      href: article-one.html
