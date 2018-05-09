@@ -1,2 +1,12 @@
-### title 
-and then some text forged from lots and lots and lots,...,lots^2 of editing.
+---
+title: "Test-article-piece"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+lots of text down here. it's read by at least 1 human. aka moi. a lot. 
