@@ -2,13 +2,16 @@
 title: "Article one"
 author: "Brandon Dey"
 date: "5/8/2018"
-output: 
+output:
   html_document:
-    toc: true # table of contents
-    toc_depth: 2 # only # header and ## smaller header show up in toc
-    toc_float: true # make toc float as I scroll
-    theme: cosmo #typography.
+    theme: cosmo
+    toc: yes
+    toc_depth: 2
+    toc_float: yes
 ---
+
+
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
