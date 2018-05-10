@@ -3,6 +3,8 @@ output_dir: "."
 navbar:
   title: "Writing"
   left:
+    - text: "index"
+      href: index.html
     - text: "1"
       href: article-one.html
     - text: "2"
