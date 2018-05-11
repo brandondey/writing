@@ -8,7 +8,7 @@ output:
     toc: true # table of contents
     toc_depth: 2 # only # header and ## smaller header show up in toc
     toc_float: true # make toc float as I scroll
-    theme: cosmo #typography.
+    theme: flatly #typography.
 ---
 
 

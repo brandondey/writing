@@ -1,14 +1,20 @@
 name: "Writing"
 output_dir: "."
-output: html_document:
-  theme: flatly
-  css: styles.css
+output: 
+  html_document:
+    theme: flatly
+    css: styles.css
 navbar:
   title: "Writing"
   left:
-    - text: "index"
-      href: index.html
-    - text: "1"
-      href: article-one.html
-    - text: "2"
-      href: article-2.html
+    - text: "Shelby"
+      menu:
+      - text: "Millenial"
+        href: article-one.html
+      - text: "Surviving"
+        href: article-two.html
+    - text: "Fiction"
+      menu:
+      - text: "Stories"
+      - text: "Story 1"
+        href: article-two.html
