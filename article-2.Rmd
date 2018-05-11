@@ -4,7 +4,8 @@ author: "Brandon Dey"
 date: "5/8/2018"
 output:
   html_document:
-    theme: cosmo
+    theme: flatly
+    css: styles.css
     toc: yes
     toc_depth: 2
     toc_float: yes
