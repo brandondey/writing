@@ -2,14 +2,14 @@ name: "Writing"
 output_dir: "."
 navbar:
   title: "Writing"
-  left:
-    - text: "Shelby"
+  right:
+    - text: "non-fiction"
       menu:
       - text: "Millenial"
         href: article-one.html
       - text: "Surviving"
         href: article-two.html
-    - text: "Fiction"
+    - text: "fiction"
       menu:
       - text: "Stories"
       - text: "Story 1"
@@ -17,5 +17,5 @@ navbar:
 output:
   html_document:
     theme: journal
-    highlight: textmate
+    highlight: null
     css: css/style.css

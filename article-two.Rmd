@@ -4,7 +4,7 @@ author: "Brandon Dey"
 date: "5/8/2018"
 html_document:
     theme: journal
-    highlight: textmate
+    highlight: null
     css: css/style.css
     toc: true # table of contents
     toc_depth: 2 # only # header and ## smaller header appear in toc
@@ -17,66 +17,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 #Header
-##more header
+## More header
 #Another Big header
+# Whoop. Look at that! Another big one!
 
 
+The content on this page will be better than this test boiler plate. I can't say how *much* better. 
 
-
-
-
-
-
-asdfa
-
-
-
-
-so much text 
-
-
-that  
-
-i hope 
-
-
-s
-
-this allowd me to see
-
-
-the TOC stay while scrolling.
-
-s
-
-
-s
-s
-s
-s
-s
-s
-s
-s
-s
-s
-s
-s
-s
-s
-s
-s
-s
-s
-s
-s
-s
-s
-s
-s
-s
-s
-s
-s
-s
-s
+But better. 
