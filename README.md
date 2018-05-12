@@ -1,6 +1,6 @@
 ## My writing website:
 
-[brandondey.github.io/writing](brandondey.github.io/writing)
+[brandondey.github.io/writing](https://brandondey.github.io/writing)
 
 ## Resources
 
