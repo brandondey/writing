@@ -11,6 +11,8 @@ html_document:
     toc_float: true # make toc float as I scroll
 ---
 
+<style>
+</style>
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)

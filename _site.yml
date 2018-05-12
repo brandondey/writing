@@ -9,11 +9,16 @@ navbar:
         href: article-one.html
       - text: "Surviving"
         href: article-two.html
+      - text: "Consider the Fly"
+        href: fly-sympathizer.html
     - text: "fiction"
       menu:
       - text: "Stories"
       - text: "Story 1"
         href: article-two.html
+    - icon: glyphicon glyphicon-console
+      text: home
+      href: https://brandondey.github.io
 output:
   html_document:
     theme: journal
