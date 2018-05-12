@@ -24,9 +24,8 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Howdy!
+# Welcome to where I keep my words.  
 
-Welcome to where I keep my words.  
 <br />
 <br />
 <br />
@@ -39,7 +38,7 @@ Some of the words are pretty good.
 <br />    
 <br />    
 <br />    
-Words.  
+Others aren't.
 <br />  
 <br />
 <br />
@@ -80,7 +79,7 @@ Words.
 <br />
 <br />
 <br />
-See? You're still here.   
+But you're still here?
 <br />  
 <br />
 <br />
@@ -128,7 +127,7 @@ The end!
 
 # Adendum
 
-More good words
+Check back when there's real content here.
 
 
 
