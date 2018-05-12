@@ -1,14 +1,14 @@
 ---
-title: "Writing Website"
-subtitle: "My subtitle"
-author: "Brandon Dey"
-date: "5/8/2018"
-output: 
+title: ""
+subtitle: ""
+output:
   html_document:
+    theme: journal
+    highlight: textmate
+    css: css/style.css
     toc: true # table of contents
-    toc_depth: 2 # only # header and ## smaller header show up in toc
+    toc_depth: 2 # only # header and ## smaller header appear in toc
     toc_float: true # make toc float as I scroll
-    theme: flatly #typography.
 ---
 
 
@@ -16,6 +16,9 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Article title
+# Howdy!
 
-andddd the article text.
+Welcome to my writing page.
+
+
+## Why I write

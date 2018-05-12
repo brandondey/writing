@@ -2,13 +2,13 @@
 title: "Article two"
 author: "Brandon Dey"
 date: "5/8/2018"
-output:
-  html_document:
-    theme: flatly
-    css: styles.css
-    toc: yes
-    toc_depth: 2
-    toc_float: yes
+html_document:
+    theme: journal
+    highlight: textmate
+    css: css/style.css
+    toc: true # table of contents
+    toc_depth: 2 # only # header and ## smaller header appear in toc
+    toc_float: true # make toc float as I scroll
 ---
 
 ```{r setup, include=FALSE}

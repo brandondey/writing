@@ -1,9 +1,5 @@
 name: "Writing"
 output_dir: "."
-output: 
-  html_document:
-    theme: flatly
-    css: styles.css
 navbar:
   title: "Writing"
   left:
@@ -18,3 +14,8 @@ navbar:
       - text: "Stories"
       - text: "Story 1"
         href: article-two.html
+output:
+  html_document:
+    theme: journal
+    highlight: textmate
+    css: css/style.css
