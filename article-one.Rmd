@@ -1,5 +1,5 @@
 ---
-title: "Article one"
+title: "Why I write"
 author: "Brandon Dey"
 date: "5/8/2018"
 html_document:
@@ -16,10 +16,102 @@ html_document:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# why write
-bc.
+Because.
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+Thoughts and stuff are people too.
 
-## why not.
-bc always
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
-## more headers
+# The end
+
+Bet you thought there'd be more wisdom here, yea?
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+*Maybe* later.
+
