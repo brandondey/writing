@@ -18,3 +18,7 @@ blockquote {
     margin-top: .25em;
     margin-left: 20px;
 }
+
+body .main-container {
+max-width: 500px;
+}

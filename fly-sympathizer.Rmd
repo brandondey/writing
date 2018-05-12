@@ -2,6 +2,7 @@
 title: "Fly-sympathizer"
 author: "Brandon Dey"
 date: "5/12/2018"
+geometry: margin=60cm
 html_document:
     theme: journal
     highlight: null
@@ -11,6 +12,11 @@ html_document:
     toc_float: true # make toc float as I scroll
 ---
 
+<style>
+    body .main-container {
+        max-width: 500px;
+    }
+</style>
 
 I did not feel for the fly. What it went through, who it was, its motivation, purpose, life. At first I did not think to, so didn't. Then, because I didn't, I wanted to. So I tried, found I couldn't. 
 

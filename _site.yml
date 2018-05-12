@@ -5,9 +5,9 @@ navbar:
   right:
     - text: "non-fiction"
       menu:
-      - text: "Millenial"
+      - text: "Article 1"
         href: article-one.html
-      - text: "Surviving"
+      - text: "Article 2"
         href: article-two.html
       - text: "Consider the Fly"
         href: fly-sympathizer.html
@@ -17,8 +17,14 @@ navbar:
       - text: "Story 1"
         href: article-two.html
     - icon: glyphicon glyphicon-console
-      text: home
-      href: https://brandondey.github.io
+      menu:
+      - text: "Home"
+        href: https://brandondey.github.io
+      - text: "Projects"  
+        href: https://brandondey.github.io/projects/
+      - text: "Blog"
+        href: https://brandondey.github.io/blog/
+        
 output:
   html_document:
     theme: journal
