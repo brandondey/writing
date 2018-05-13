@@ -21,6 +21,7 @@ blockquote {
 
 body .main-container {
 max-width: 800px;
+background-color: #edf2f7;
 }
 
 
@@ -30,12 +31,17 @@ max-width: 800px;
    -webkit-column-count: 3; /* Chrome, Safari, Opera */
    -moz-column-count: 3; /* Firefox */
    column-count: 3;
-   -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-   -moz-column-gap: 40px; /* Firefox */
-   column-gap: 40px;
-   -webkit-column-rule: 1px solid lightgrey; /* Chrome, Safari, Opera */
-   -moz-column-rule: 1px solid lightgrey; /* Firefox */
-   column-rule: 1px solid lightgrey;
+   -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+   -moz-column-gap: 20px; /* Firefox */
+   column-gap: 15px;
+   -webkit-column-rule: .5px solid lightgrey; /* Chrome, Safari, Opera */
+   -moz-column-rule: .5px solid lightgrey; /* Firefox */
+   column-rule: .5px solid lightgrey;
+   column-width: 150px;
 }
 
-
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    color: #fff;
+    background-color: #00b8d4;
+    border-color: #337ab7;
+}
