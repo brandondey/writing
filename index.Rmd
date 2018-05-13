@@ -9,6 +9,7 @@ output:
     toc: true # table of contents
     toc_depth: 2 # only # header and ## smaller header appear in toc
     toc_float: true # make toc float as I scroll
+    collapsed: false
 ---
 
 ```{r setup, include=FALSE}

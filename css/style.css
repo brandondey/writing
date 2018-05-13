@@ -19,11 +19,16 @@ blockquote {
     margin-left: 20px;
 }
 
+/*This changes the attributes of the main body. Changing background-color to edf2f7 will make the background color light gray.*/
+
 body .main-container {
-max-width: 800px;
-background-color: #edf2f7;
+  max-width: 800px;
+  /*margin-left: 100px;*/
+  background-color: #FFFFFF; //edf2f7 is lightgray
+  margin: auto;
 }
 
+/*This makes the text split into 3 columns. Play with column-count.*/
 
 .newspaper {
    xborder:1px black solid;
@@ -34,12 +39,13 @@ background-color: #edf2f7;
    -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
    -moz-column-gap: 20px; /* Firefox */
    column-gap: 15px;
-   -webkit-column-rule: .5px solid lightgrey; /* Chrome, Safari, Opera */
-   -moz-column-rule: .5px solid lightgrey; /* Firefox */
-   column-rule: .5px solid lightgrey;
+   -webkit-column-rule: 1px solid lightgrey; /* Chrome, Safari, Opera */
+   -moz-column-rule: 1px solid lightgrey; /* Firefox */
+   column-rule: 1px solid lightgrey;
    column-width: 150px;
 }
 
+/*This changes the background-color of the TOC*/
 .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
     color: #fff;
     background-color: #00b8d4;
