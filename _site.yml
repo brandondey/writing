@@ -5,10 +5,8 @@ navbar:
   right:
     - text: "non-fiction"
       menu:
-      - text: "Article 1"
-        href: article-one.html
-      - text: "Article 2"
-        href: article-two.html
+      - text: "Shelby Dey to the Unsolicited Rescue of Millennials"
+        href: shelby-dey.html
       - text: "Consider the Fly"
         href: fly-sympathizer.html
     - text: "fiction"
