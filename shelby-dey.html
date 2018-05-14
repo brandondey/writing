@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+<meta name="author" content="Brandon Dey" />
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 61px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+
+.section h2 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h3 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h4 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h5 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h6 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Writing</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    non-fiction
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="article-one.html">Article 1</a>
+    </li>
+    <li>
+      <a href="article-two.html">Article 2</a>
+    </li>
+    <li>
+      <a href="fly-sympathizer.html">Consider the Fly</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    fiction
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-header">Stories</li>
+    <li>
+      <a href="article-two.html">Story 1</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="glyphicon glyphicon glyphicon glyphicon-console"></span>
+     
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="https://brandondey.github.io">Home</a>
+    </li>
+    <li>
+      <a href="https://brandondey.github.io/projects/">Projects</a>
+    </li>
+    <li>
+      <a href="https://brandondey.github.io/blog/">Blog</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore"><div style="white-space: pre-line;">  Shelby Dey
+ </div></h1>
+<h3 class="subtitle"><em>To the (Unsolicited) Rescue of Millennials</em></h3>
+<h4 class="author"><em>Brandon Dey</em></h4>
+<h4 class="date"><em>5/12/2018</em></h4>
+
+</div>
+
+
+<p><br /> <br /> <br /> <br /></p>
+<div id="the-wind-up" class="section level2">
+<h2>The Wind Up</h2>
+<p class="newspaper">
+Shelby Dey is a Millennial by virtue of having been born in 1994. But you’d never guess she was a <em>Millennial</em>. Her departure from the Millennial mold warrants some attention both to her, and to this “Millennial mold”, which appears to be a default definition in narratives around the Internet and in respected print publications<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>. These narratives cast Millennials in characteristically reductive and, typically, unflattering light. It’s often the case that these molds bottle our young people up, make them look like entitled brats – conflating the rich with the poor and everyone in between – and presenting them as products of a culture soiled in social media, obvious aberrations from the traditional values of the Good Ol’ Days. <br /> More ostensible <em>Millennial</em> trappings include: unemployment, a fondness for basement dwelling, overall laziness and lack of work ethic, disbelief in major world religions supplanted by an unshakable faith in the Almighty Self, and gray matter that’s been melted by staring at screens too long. Joining these dubious associations are more generalized traits yet: Cloistered narcissism; Endless chasing of YouTube fame with a seriousness similar to that with which Baby Boomers pursued Doctordom; Constant agony over quipping a clever Facebook post – one balanced with calculated amounts of self-affirmation and self-deprecation to amass the most Likes. <br /> Our wise elders, the Baby Boomers and our nearest generational neighbors, the Gen X’ers, forecast that America’s future with us Millennials at the helm will be a stormy one.<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a> One can easily imagine whole neighborhoods of Baby Boomer gray hair and thick spectacles dooming-and-glooming in their rockers over how photo albums of this future will be clogged with selfies, pics whose perspective doesn’t extend beyond an arm’s reach – unless a Selfie Stick is used.<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a> <br /> While not all sociologists, demographers, journalists, parents, grandparents, etc. out there are this reductive, pessimistic, and/or prone to this particular brand of the fallacy of composition, the bottles continue to be used as directional “evidence”, revisited when one wishes to say something wholesale about the people born of an entire generation. <br /> Shelby Dey resists such bottling. In part because she wouldn’t go willingly, and in part because she doesn’t exactly fit into these generalized generation-level expectations, a broad-brush outcome openly acknowledged in a 2010 PEW Research Center report, <a href="http://assets.pewresearch.org/wp-content/uploads/sites/3/2010/10/millennials-confident-connected-open-to-change.pdf"><em>Millennials, A Portrait on Generation Next. Confident. Connected. Open to Change.</em></a> <a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a> But if someone did figure out a way to summarily can Shelby Dey, and then somehow manage to persuade other Millennials to drink, as a kind of spiritual or character pick-me-up, maybe, just maybe <em>Millennials</em> wouldn’t get such a bad rap from those born in, say, any other living generation, ever; distinguished research centers included. (FYI, Shelby would be served cold-pressed in a tall mojito glass, sans nauseating umbrella, freshed-up with organic lime, and would be very expensive; top shelf for sure.)
+</p>
+<p>Page 1</p>
+<hr />
+<p class="newspaper">
+Shelby has two tattoos: An Old Testament Bible verse, Micah 6:8, inked in blotchy black Hebrew on her left wrist, and a thin Christian cross, also black, that crests the knob of her northern-most vertebrae on the back of her neck. She has caricature-sized eyes that are a kind of swirly blue and widen genially when she talks. Her shoulder-length brown hair is kept in a ponytail most days, muzzling its natural curl – as it was when we recently chatted over coffee at a favorite café of hers, Coffeeville, in Jackson, Wisconsin, just north of Milwaukee. Despite its cheesy name, suggestive of a kind of caffeinated amusement park fanny-packed with overweight coffee tourists, the rustic space might have been an old railroad station at some point. The walls are those of a log cabin. Depression-era coffee grinders older than railroads themselves are showcased down the length of one of them. She wore a light-gray cardigan over a black T-shirt designed and manufactured by a company whose efforts toward social responsibility and sourcing ethics were her litmus test for purchase. A constellation of subtle freckles confetti her forehead, discernible only to those within coffee-drinking distance, which, given that she’s a barista, many are. <br /> A 22<a href="#fn5" class="footnoteRef" id="fnref5"><sup>5</sup></a> year old Family &amp; Human Development major at ASU, barista-ing at Starbucks until graduation, at which point she plans to enter some nonprofit niché (child placement, maybe), and stuck fretting over midterms most days, she says that, at the moment, “She’s not an exciting person.”&quot; Then she launched into what would become approximately 90 minutes of popcorn-style stories of pretty much anything and everything that turned that statement upside down. <br /> The circles in salami freak her out, but not as much as clowns. She won’t touch raw chicken when cooking unless she’s wearing gloves, but she’s trying to get over that. She’s not a vegetarian, per se, yet only eats meat (nothing red) when she thinks her body needs the protein. She likes to say that animals are like people and anthropomorphizes her family’s golden retriever, Kaya, pretty much every day. She sleeps with the tattered remains of what I’m sure was once an adorable blankie. Routinely breaking into energetic interpretive dance in the living room is totally her thing. She loathes math and yet isn’t really an english person either. Beyoncé really is Queen Bee. She owns shocking hot pink Nike running shoes, yet thinks the color pink is gross. When she gets sick, she requires Emgen-C® fizzy tablets – the orange flavor – tissues with the soothing Vicks lotion, lots of the tea that coats your throat, a heating pad, and Netflix. She doesn’t get sick very often, but according to WebMd she might have Lyme disease, or maybe benign eccrine spiradenoma, or maybe a super rare skin condition, or maybe just Internet-enabled hypochondria, which the site fittingly calls “Cyberchondria”. She recently decided to only buy clothes from companies who source and manufacture their fabrics ethically – fair wages, no sweatshops – so her wardrobe is pretty threadbare at the moment. Her favorite class in college was Food Politics and she found the degree of government involvement in America’s food production “disturbing.” Obama, his administration, and now Trump and his, do not enjoy favorable approval ratings from Shelby Dey, as she holds many conspiratorial skepticisms of “The Government” and its role in our lives, though doesn’t identify with either side of the aisle. She’s traced the origins of her taste for pesto and goat cheese, which she enjoys together sometimes and sometimes not (“it just depends”) back to her visit to Swaziland when she was 18, a freshly liberated graduate from the tyranny of high school. Her go-to method of marital reprimand is a (soft) flick of her index finger spring-loaded on her thumb, delivered to the part of me nearest her. And afterwards she will always, always, literally without fail – I can’t stress this enough – flick herself, just to see how badly she may or may not have hurt me. She also bites in our playful fights, probably too much. Impressively, she’s able to apply deodorant one-handed – that is, left pit with left arm, right pit with right arm – leaving me kind of gawking in (possibly misguided) admiration. While this is impressive to watch, admittedly it seems less impressive to merely read about. “Truly, you just have to be there,” as Shelby will say.
+</p>
+</div>
+<div id="at-bat" class="section level2">
+<h2>At Bat</h2>
+<p class="newspaper">
+Words
+</p>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Examples<a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p>Examples<a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p>Get yours <a href="https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Delectronics&amp;field-keywords=selfie+stick">here.</a><a href="#fnref3">↩</a></p></li>
+<li id="fn4"><p>“Generational analysis has a long and distinguished place in social science, and we cast our lot with those scholars who believe it is not only possible, but often highly illuminating, to search for the unique and distinctive characteristics of any given age group of Americans. But we also know this is not an exact science. We are mindful that there are as many differences in attitudes, values, behaviors, and lifestyles within a generation as there are between generations. But we believe this reality does not diminish the value of generational analysis; it merely adds to its richness and complexity.”<a href="#fnref4">↩</a></p></li>
+<li id="fn5"><p>She’s 23 now.<a href="#fnref5">↩</a></p></li>
+</ol>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
