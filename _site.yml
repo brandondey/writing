@@ -18,8 +18,8 @@ navbar:
       menu:
       - text: "Home"
         href: https://brandondey.github.io
-      - text: "Projects"  
-        href: https://brandondey.github.io/projects/
+      - text: "Data Science"  
+        href: https://brandondey.github.io/data-science/
       - text: "Blog"
         href: https://brandondey.github.io/blog/
         
