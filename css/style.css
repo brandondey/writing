@@ -22,10 +22,21 @@ blockquote {
 /*This changes the attributes of the main body. Changing background-color to edf2f7 will make the background color light gray.*/
 
 body .main-container {
-  max-width: 800px;
+  max-width: 624px;
   /*margin-left: 100px;*/
   background-color: #FFFFFF; //edf2f7 is lightgray
   margin: auto;
+  /*font-family: Helvetica;*/
+  /*font-size: 12pt;*/
+}
+
+/*
+h1,h2,h3,h4,h5,h6{
+  font-family: Helvetica;
+  font-size: 24pt;
+}*/
+
+  
 }
 
 /*This makes the text split into 3 columns. Play with column-count.*/
