@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Brandon Dey" />
+
+<meta name="date" content="2019-12-01" />
+
+<title>fly-sympathizer.utf8</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 61px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h2 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h3 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h4 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h5 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h6 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Writing</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    non-fiction
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="shelby-dey.html">Shelby Dey to the Unsolicited Rescue of Millennials</a>
+    </li>
+    <li>
+      <a href="fly-sympathizer.html">Consider the Fly</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    fiction
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-header">Stories</li>
+    <li>
+      <a href="article-two.html">Nothing to see here yet, folks!</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="glyphicon glyphicon glyphicon glyphicon-console"></span>
+     
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="https://brandondey.github.io">Home</a>
+    </li>
+    <li>
+      <a href="https://brandondey.github.io/data-science/">Data Science</a>
+    </li>
+    <li>
+      <a href="https://brandondey.github.io/blog/">Blog</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore"><div class="line-block">  Consider the Fly<br />
+ </div></h1>
+<h4 class="author">Brandon Dey</h4>
+<h4 class="date">12/01/2019</h4>
+
+</div>
+
+
+<p><br /> <br /></p>
+<div id="i-know-hipster-ipsum" class="section level2 tabset">
+<h2>I Know Hipster Ipsum!</h2>
+<p class="newspaper">
+<p>Lorem ipsum dolor amet echo park shabby chic tacos four loko, keytar letterpress 90’s small batch everyday carry mumblecore shoreditch synth meh sartorial sed. Adaptogen cronut bespoke ad health goth, est messenger bag ut humblebrag dolor XOXO small batch culpa food truck enim. Gluten-free ut in put a bird on it, gentrify normcore ugh glossier affogato shoreditch tofu adaptogen stumptown. Vape edison bulb tattooed palo santo art party fashion axe woke id nostrud umami biodiesel.</p>
+<p>Deserunt stumptown et blog vice intelligentsia literally cloud bread. Anim twee gochujang blog, cray banh mi vegan. Poke food truck wayfarers, 8-bit la croix celiac 90’s paleo fingerstache hashtag edison bulb distillery yuccie street art. Sartorial yr lyft asymmetrical tote bag semiotics la croix officia af vaporware gentrify labore, hot chicken flexitarian.</p>
+<p>Swag wolf craft beer, anim succulents sunt celiac ut. Tbh schlitz et chartreuse shoreditch affogato dreamcatcher magna ex qui. Cred ut vexillologist, in XOXO farm-to-table pok pok shabby chic waistcoat pop-up qui irony thundercats. Vape kombucha gochujang prism mustache mlkshk normcore brunch incididunt semiotics aute iPhone scenester thundercats.</p>
+<p>Meggings crucifix schlitz church-key. Banh mi raclette id, selfies kickstarter in keffiyeh cliche. Bushwick subway tile retro blog pour-over. Helvetica in jianbing small batch tempor pug do. Viral lomo sartorial, four loko veniam letterpress activated charcoal duis PBR&amp;B offal venmo kinfolk vegan. Magna 3 wolf moon proident craft beer. Skateboard raclette et vegan fugiat cold-pressed vaporware man braid bespoke minim.</p>
+<p>Velit in actually, kinfolk occaecat glossier hell of live-edge pork belly nisi. Adaptogen plaid seitan vegan fugiat tacos. Ea kogi chia forage nulla letterpress reprehenderit. Glossier gluten-free literally green juice celiac sustainable activated charcoal semiotics.</p>
+<p>Authentic pork belly kale chips consectetur, viral literally hammock brunch mlkshk hexagon af consequat kogi duis. Veniam kitsch yr, tbh vice pabst occupy hammock gochujang subway tile polaroid gluten-free williamsburg ut kickstarter. Echo park keffiyeh coloring book actually craft beer health goth shabby chic. Quinoa flannel cronut eiusmod man bun, mixtape cray selvage letterpress chambray 8-bit try-hard before they sold out. Ramps raw denim keffiyeh normcore, wolf beard fam try-hard activated charcoal hoodie actually freegan kale chips authentic. Hot chicken blue bottle echo park humblebrag aute, heirloom activated charcoal dolore man braid lyft schlitz esse crucifix brunch.</p>
+<p>Occupy pour-over ad, nisi cray williamsburg polaroid laboris listicle vinyl mumblecore messenger bag marfa. Actually knausgaard consequat dolore mlkshk pinterest exercitation thundercats. Fixie leggings aesthetic literally fashion axe sed ugh ea cray activated charcoal vinyl in elit woke commodo. Etsy la croix trust fund flannel hashtag intelligentsia heirloom.</p>
+<p>Lorem sunt palo santo pok pok, occaecat ugh poke consequat blue bottle normcore. Affogato cupidatat lumbersexual, YOLO hell of flannel vape laborum etsy consequat PBR&amp;B tempor fam. Lumbersexual cloud bread fingerstache fashion axe prism quinoa iPhone aesthetic semiotics butcher trust fund jianbing excepteur. Man bun microdosing sint, glossier ramps hot chicken chartreuse bitters trust fund enim swag in anim flexitarian.</p>
+<p>Everyday carry vegan officia authentic dolore non vaporware you probably haven’t heard of them cray normcore labore lomo shabby chic excepteur. Qui pour-over activated charcoal, kombucha sed laboris meh blog vape do hoodie tempor. Yuccie aute synth excepteur meditation skateboard pok pok qui incididunt jianbing. Gastropub selvage schlitz, adaptogen iPhone ut microdosing bushwick forage vinyl. Copper mug reprehenderit disrupt cillum. Tote bag lorem brooklyn XOXO tilde cold-pressed truffaut est.</p>
+<p>Mlkshk forage chia elit distillery vape shoreditch swag in hot chicken humblebrag heirloom synth pariatur. Fam aliquip ethical thundercats, edison bulb stumptown kale chips pinterest disrupt do. Gluten-free venmo occupy esse taxidermy butcher heirloom typewriter four dollar toast et hoodie iceland. Laboris craft beer la croix unicorn green juice selvage in reprehenderit deserunt. Fingerstache banjo banh mi cliche echo park. Live-edge air plant ad, ugh consequat 3 wolf moon lyft swag disrupt nisi everyday carry do ut fanny pack seitan.</p>
+<p>3 wolf moon pickled godard, pariatur single-origin coffee deep v velit cred ut sustainable pop-up cloud bread. Incididunt polaroid try-hard, typewriter affogato occupy hammock plaid trust fund aute. Lorem banh mi lomo try-hard, shabby chic fugiat ullamco chia +1 actually culpa coloring book gochujang. Hashtag af authentic health goth. Synth labore crucifix ugh coloring book exercitation salvia leggings. Hashtag do unicorn, drinking vinegar VHS lyft tumeric slow-carb gluten-free. Est copper mug tumblr fugiat deep v, raclette artisan tacos man bun iPhone master cleanse small batch gastropub eu asymmetrical.</p>
+<p>Palo santo excepteur marfa, laboris post-ironic man braid 3 wolf moon migas roof party food truck. Brooklyn selvage ut twee stumptown cray godard squid jianbing sed. Aesthetic ugh snackwave dolore aute XOXO blue bottle dreamcatcher gluten-free chia adaptogen tattooed retro in. Synth street art cornhole, la croix kombucha pop-up vegan migas trust fund. Adipisicing incididunt shaman pug banh mi. Marfa craft beer occupy twee.</p>
+<p>Qui pariatur nostrud tote bag, lorem beard kitsch portland health goth pitchfork authentic veniam crucifix photo booth. Messenger bag adaptogen shoreditch, freegan fixie vexillologist migas id YOLO. Excepteur nulla VHS, pop-up ad mlkshk polaroid tote bag biodiesel photo booth fashion axe migas chillwave farm-to-table proident. Blog aliquip kitsch, veniam aute fingerstache gastropub meh swag selfies aliqua austin quis helvetica 3 wolf moon. 8-bit put a bird on it in, elit four loko celiac deserunt twee squid bitters flexitarian nulla brooklyn tempor. Authentic duis activated charcoal hashtag, readymade franzen plaid lo-fi twee everyday carry.</p>
+<p>You probably haven’t heard of them drinking vinegar edison bulb pok pok post-ironic commodo prism ipsum vaporware next level pariatur tofu enim veniam deserunt. Kale chips minim pitchfork before they sold out, listicle tote bag tacos slow-carb deserunt helvetica kickstarter. Microdosing tempor butcher, synth thundercats drinking vinegar mollit heirloom mumblecore scenester et eiusmod quinoa. Pitchfork heirloom voluptate reprehenderit direct trade, lorem paleo banh mi qui poutine. La croix woke semiotics, magna tumeric duis roof party ipsum photo booth raw denim direct trade organic chambray. XOXO forage eu fanny pack photo booth celiac.</p>
+<p>Scenester typewriter semiotics, pork belly in church-key cronut leggings blog shabby chic forage drinking vinegar fashion axe taiyaki. Pok pok chambray anim craft beer church-key small batch. Offal actually quis, vaporware pork belly magna XOXO messenger bag craft beer artisan. Lumbersexual minim neutra dolore keytar, retro artisan fingerstache mlkshk pabst jean shorts. Ea taxidermy roof party pitchfork. Et elit locavore pork belly drinking vinegar coloring book ullamco intelligentsia austin gochujang mustache art party. Bushwick do velit craft beer, in shabby chic literally.</p>
+<p>Qui coloring book woke edison bulb everyday carry sed lyft subway tile hella portland migas iPhone. Coloring book trust fund edison bulb listicle. PBR&amp;B etsy freegan, narwhal enim dolore biodiesel aesthetic hella. Marfa flannel quinoa velit exercitation occupy readymade cliche lomo.</p>
+<p>Vaporware sustainable chia letterpress in biodiesel next level hoodie plaid paleo reprehenderit actually cray. Culpa la croix meggings meditation pop-up laboris next level. Whatever raw denim offal shabby chic selvage sunt biodiesel iPhone chambray. Hammock you probably haven’t heard of them lumbersexual, consequat viral magna single-origin coffee shabby chic echo park lyft art party street art gastropub chartreuse biodiesel. Polaroid yuccie tofu prism beard everyday carry.</p>
+<p>Godard deep v tumblr irony migas enim. Mumblecore bushwick tattooed, PBR&amp;B etsy try-hard fugiat chia austin copper mug gentrify lorem non. Fanny pack vape raclette deserunt. Velit everyday carry aesthetic williamsburg ullamco glossier, skateboard copper mug hammock gochujang flannel letterpress. Drinking vinegar quinoa culpa, copper mug pariatur offal cloud bread jianbing sed. Kinfolk deserunt portland, salvia banjo exercitation consequat tofu thundercats put a bird on it eiusmod jianbing hella. Skateboard fugiat prism celiac craft beer.</p>
+<p>Try-hard small batch adipisicing qui messenger bag aute master cleanse deserunt organic. Pitchfork green juice ut austin. Ugh laborum duis fugiat, cillum consequat brooklyn ut you probably haven’t heard of them woke mustache. Man braid plaid raclette, kale chips sustainable master cleanse dolor dolore. Velit church-key beard street art aesthetic helvetica. Enim id succulents banh mi, chambray literally vegan food truck etsy. Vegan nostrud jianbing pitchfork.</p>
+<p>Cronut snackwave ennui tumblr seitan authentic. Celiac ugh vaporware slow-carb selfies, locavore woke messenger bag umami irure raclette elit ex. Chartreuse wolf velit sint mollit four dollar toast retro deep v. Sed veniam salvia, anim laboris franzen plaid everyday carry palo santo lumbersexual raclette whatever selvage. Ut four loko snackwave green juice cardigan direct trade ennui. Listicle copper mug gluten-free pinterest, coloring book sunt et DIY truffaut salvia magna.</p>
+<p>Blue bottle commodo four loko migas anim schlitz, squid air plant street art pinterest. Gentrify nostrud banjo, wolf seitan intelligentsia sed in shabby chic bespoke polaroid do art party heirloom tumeric. 90’s tote bag kale chips, kogi tilde trust fund scenester disrupt hella deserunt heirloom sed consectetur incididunt actually. Hot chicken dolor cred velit id, eiusmod franzen marfa. Green juice selfies neutra etsy ut craft beer. Ut twee food truck offal austin marfa.</p>
+<p>Venmo leggings try-hard est pop-up nostrud PBR&amp;B voluptate XOXO aliquip poke quis lomo. Cronut put a bird on it ethical, est chicharrones enamel pin keytar ullamco pitchfork. Letterpress normcore helvetica, offal chartreuse ugh deep v velit ex polaroid single-origin coffee DIY yuccie. Occaecat vaporware coloring book drinking vinegar irony, cray retro sartorial viral id freegan iPhone minim. Wayfarers mlkshk you probably haven’t heard of them ugh XOXO pabst four loko truffaut actually exercitation anim mustache listicle.</p>
+<p>Ea cloud bread snackwave tattooed voluptate unicorn prism sed cronut bicycle rights. Laborum put a bird on it hexagon laboris skateboard shabby chic nisi fingerstache taxidermy. Gentrify aliqua drinking vinegar vexillologist deserunt artisan unicorn tempor glossier. Banjo letterpress fugiat raclette, fingerstache YOLO pour-over aliquip kitsch woke taiyaki. Deep v helvetica vegan flannel eu. Yuccie quis whatever laborum williamsburg pinterest sint post-ironic velit health goth vexillologist etsy.</p>
+<p>Photo booth vape activated charcoal hella blue bottle street art beard deep v offal raw denim. Sint DIY adaptogen, helvetica butcher PBR&amp;B commodo seitan. Ugh taiyaki sunt, snackwave messenger bag officia butcher fam ut air plant commodo. Knausgaard anim sriracha enamel pin four dollar toast forage eiusmod lorem viral adaptogen beard yuccie. Kickstarter typewriter sustainable ugh. Cray enamel pin schlitz williamsburg church-key microdosing swag truffaut street art pok pok mixtape artisan blue bottle tempor cardigan.</p>
+<p>Nulla mumblecore pop-up migas cronut echo park. Biodiesel tumblr venmo single-origin coffee, brooklyn excepteur thundercats selvage next level ennui authentic commodo. Lorem aliquip dreamcatcher viral cloud bread, vape tote bag. Gluten-free drinking vinegar hexagon, post-ironic letterpress voluptate mustache freegan. Occupy poutine snackwave consequat lo-fi. Meggings aliquip vape, sed tacos paleo fashion axe irure XOXO cray chillwave. Reprehenderit labore ugh hot chicken.</p>
+<p>Seitan proident mustache fashion axe ut bicycle rights cronut, taxidermy adipisicing. Lorem pop-up hot chicken vape fanny pack pork belly tote bag twee sunt lyft consequat hella. VHS vape chia culpa yr pour-over fixie id hammock pork belly small batch mixtape flexitarian. Cliche qui ex deep v flexitarian blog subway tile godard tacos af. Hoodie in marfa keytar.</p>
+<p>Poutine marfa narwhal hot chicken synth tbh, plaid cillum helvetica. Photo booth tumblr voluptate, esse poke locavore cold-pressed. Locavore thundercats retro neutra synth mustache, twee aliqua hot chicken readymade. Microdosing gentrify tumeric single-origin coffee enamel pin bitters. Hashtag cardigan snackwave, raclette bicycle rights kale chips eu vexillologist normcore iPhone flannel brooklyn. Hot chicken tilde chillwave adipisicing labore polaroid roof party snackwave pop-up commodo plaid forage. Incididunt selvage officia, four loko banh mi irony ennui poke.</p>
+<p>+1 listicle salvia iPhone, keytar aute swag incididunt helvetica selvage chia. Distillery occaecat anim aliqua pour-over nisi lyft cupidatat tbh selvage copper mug quis ad. Minim succulents retro pop-up air plant brunch raw denim taiyaki nulla. Mumblecore aliqua banh mi schlitz, polaroid voluptate tumblr kale chips sriracha tote bag green juice pop-up nostrud. Chartreuse ugh shoreditch tousled taiyaki. Viral swag asymmetrical hell of, hexagon chia tumeric deep v duis hella dreamcatcher et slow-carb.</p>
+<p>Enim disrupt ut YOLO excepteur sartorial marfa 3 wolf moon godard ethical quinoa normcore. Taiyaki normcore try-hard unicorn. Art party tbh occupy cred. Messenger bag small batch yuccie ipsum aliquip tumblr stumptown aute gochujang vinyl four dollar toast swag deep v green juice laborum. Pinterest marfa excepteur deserunt, franzen chicharrones hexagon non aute keffiyeh dolor put a bird on it vexillologist veniam cred.</p>
+<p>Humblebrag wayfarers pour-over, poutine lumbersexual non yr hashtag edison bulb trust fund chartreuse id vape. Tempor excepteur subway tile echo park kitsch knausgaard. Health goth iPhone tumblr, church-key echo park godard hashtag reprehenderit venmo hammock chia. Franzen hashtag yuccie, hell of irony celiac pinterest four loko duis ugh non sed kinfolk tote bag church-key. Flannel everyday carry poutine, kickstarter occupy photo booth fashion axe cliche next level magna PBR&amp;B cloud bread tote bag.</p>
+<p>Hexagon whatever cornhole chicharrones, mixtape drinking vinegar blog. Meggings enamel pin intelligentsia tattooed, umami you probably haven’t heard of them prism vinyl. Tilde banh mi normcore, in copper mug woke PBR&amp;B. Excepteur nisi polaroid mumblecore tousled stumptown selfies. Veniam enim intelligentsia raclette, pinterest tumblr austin asymmetrical deep v cray.</p>
+<p>Photo booth nulla mumblecore qui. Eiusmod poutine ennui, swag blue bottle semiotics literally typewriter excepteur proident hella bitters listicle knausgaard. Adaptogen vegan distillery paleo enamel pin hoodie twee hashtag pug consectetur offal. You probably haven’t heard of them distillery tofu actually 90’s letterpress tumeric typewriter incididunt heirloom art party keffiyeh pickled sartorial godard. Proident put a bird on it kinfolk, neutra tousled vape swag thundercats schlitz squid knausgaard master cleanse. Tousled adipisicing kinfolk echo park officia ramps wayfarers aliquip williamsburg sint.</p>
+<p>Pour-over ad four loko poke mlkshk, literally man bun lomo hella. Cornhole bespoke distillery, letterpress unicorn shaman adaptogen mustache tousled shabby chic dolore. Cray helvetica minim lorem. Meggings freegan PBR&amp;B, yuccie kitsch direct trade lo-fi blog in activated charcoal laboris pork belly. Cillum kitsch reprehenderit aute freegan.</p>
+<p>Non raclette af crucifix poke, marfa tilde voluptate four dollar toast bicycle rights. Vexillologist put a bird on it nostrud seitan. Ipsum banh mi dolore, vegan listicle occaecat organic narwhal la croix. Beard 3 wolf moon kale chips irony. Fanny pack marfa scenester, tattooed YOLO poke pariatur selfies heirloom. Pug aesthetic aliquip sustainable taiyaki schlitz, taxidermy tousled lorem aute mustache heirloom freegan quis.</p>
+<p>Crucifix actually paleo squid, labore elit +1 hella readymade. Pok pok mixtape 90’s, occupy kinfolk exercitation in pop-up roof party sartorial. Beard migas cronut mollit post-ironic in. Typewriter before they sold out fanny pack health goth. Pug humblebrag do, hashtag squid in viral microdosing echo park hammock ut.</p>
+<p>Sint pok pok subway tile, quinoa chicharrones salvia enamel pin flannel lorem chia narwhal. Snackwave poutine enamel pin flexitarian swag proident culpa sriracha raw denim. Cronut neutra shaman edison bulb kickstarter. Banh mi iPhone pug ex vape kinfolk direct trade af sed coloring book. Meggings schlitz lyft, pour-over et pinterest four loko culpa.</p>
+<p>Pug schlitz shabby chic esse forage, flannel yuccie chartreuse hashtag do next level. Freegan meggings mustache wayfarers yr. Duis butcher gochujang et meh everyday carry. Drinking vinegar deep v anim heirloom, selfies master cleanse in unicorn excepteur tbh cred mixtape pug. Readymade sint dolor waistcoat. Bushwick artisan laboris, pork belly you probably haven’t heard of them mumblecore craft beer.</p>
+<p>Humblebrag mollit ugh vegan venmo farm-to-table duis 90’s cronut occupy plaid flannel. Tattooed viral humblebrag affogato you probably haven’t heard of them consectetur. Letterpress direct trade eu labore cardigan pour-over portland XOXO photo booth pug mumblecore consectetur. La croix bushwick celiac, four dollar toast sunt activated charcoal af VHS. Typewriter pok pok 90’s raclette. Helvetica godard next level art party YOLO waistcoat, locavore actually cornhole taxidermy. Kale chips hoodie 3 wolf moon photo booth.</p>
+<p>Vaporware photo booth shaman pickled bitters franzen sint taiyaki raw denim ethical brooklyn organic consectetur disrupt. Cronut kickstarter pabst, dreamcatcher bespoke copper mug elit meggings church-key. Locavore irure laborum street art, whatever blue bottle meh direct trade neutra ethical selfies ullamco. Ugh craft beer pinterest, butcher flexitarian enim fingerstache hoodie lomo schlitz. Unicorn pug hot chicken kinfolk dolore asymmetrical migas chartreuse 3 wolf moon. Adipisicing cray food truck affogato.</p>
+<p>Keytar enamel pin before they sold out lo-fi vexillologist put a bird on it migas shabby chic unicorn taxidermy semiotics everyday carry esse. Ea nostrud shoreditch, wolf flannel 3 wolf moon enim marfa viral fashion axe knausgaard roof party. Hella stumptown vinyl, lyft freegan taiyaki commodo humblebrag locavore. Hammock tbh everyday carry raw denim chartreuse occaecat, direct trade chambray. Paleo ethical tilde labore culpa laboris. Tumeric kale chips cold-pressed af enim.</p>
+<p>Church-key sunt vexillologist paleo tbh. Adaptogen thundercats godard, nisi meggings tote bag everyday carry. Brooklyn tumeric normcore kickstarter, tbh cornhole banh mi semiotics offal lyft slow-carb. 3 wolf moon deep v meh cupidatat mixtape coloring book do. Artisan cillum ut, tattooed ennui taxidermy bushwick stumptown asymmetrical meggings af laboris duis elit. Keytar cardigan voluptate, culpa ethical cronut flannel normcore palo santo offal single-origin coffee lumbersexual ex.</p>
+<p>Bespoke lo-fi ut dreamcatcher aesthetic. Activated charcoal forage in, everyday carry pinterest typewriter qui. Post-ironic synth cray street art fingerstache adipisicing. Pug gochujang kinfolk tumblr. Succulents semiotics shoreditch cillum humblebrag sunt, eu irony listicle aute stumptown etsy waistcoat dolore small batch. Adipisicing four loko offal nostrud. Consequat hexagon disrupt fixie tofu, vice paleo ut twee church-key pug hot chicken post-ironic do narwhal.</p>
+<p>Minim aute duis you probably haven’t heard of them hell of wayfarers. Pariatur authentic butcher aesthetic, four loko ex iPhone austin hoodie 8-bit. Gluten-free small batch wolf austin tofu. Ex schlitz pitchfork, pop-up migas ut hashtag in banjo selfies pour-over yuccie actually austin. Ullamco sriracha selfies intelligentsia in. Street art poutine truffaut XOXO taxidermy.</p>
+<p>XOXO skateboard lumbersexual selvage, vexillologist cray shaman sustainable single-origin coffee. You probably haven’t heard of them letterpress typewriter everyday carry wolf, squid pork belly literally cupidatat. Paleo ipsum venmo dreamcatcher green juice umami bicycle rights food truck mustache slow-carb laboris gastropub etsy farm-to-table. Cillum mlkshk proident, subway tile bitters polaroid bespoke artisan dolore biodiesel adipisicing. Waistcoat authentic mumblecore roof party, coloring book etsy occupy flannel ipsum whatever cred four dollar toast squid pug edison bulb. Fingerstache waistcoat narwhal, pabst quinoa woke vexillologist butcher whatever shoreditch distillery. Pinterest church-key sed palo santo lumbersexual lo-fi ea fashion axe reprehenderit whatever crucifix tacos raclette.</p>
+<p>Seitan normcore authentic poke jianbing glossier, chartreuse irure cray. Pour-over cray narwhal, photo booth echo park venmo ea kinfolk gluten-free. Narwhal ad fam, activated charcoal DIY farm-to-table tilde duis mollit kitsch. XOXO intelligentsia shabby chic mixtape listicle squid brooklyn. Elit in aliquip four dollar toast do nulla letterpress. Mixtape heirloom keffiyeh, pickled hashtag keytar tote bag quis cred.</p>
+<p>Typewriter dolor hashtag roof party hell of, ut gentrify iceland next level minim pabst raclette adaptogen. Jianbing commodo art party ut skateboard officia pork belly kale chips readymade authentic raclette cray retro. Etsy four loko glossier retro proident you probably haven’t heard of them. 90’s kombucha everyday carry voluptate.</p>
+<p>Taiyaki kickstarter ea quinoa farm-to-table, lyft chartreuse celiac cray poutine adipisicing prism. Plaid church-key single-origin coffee swag four loko organic selvage, chillwave freegan. Air plant cupidatat health goth mustache. Iceland slow-carb umami church-key thundercats. Four dollar toast waistcoat dreamcatcher cornhole air plant meggings woke swag pinterest. Truffaut meggings chillwave cornhole locavore scenester.</p>
+<p>Coloring book PBR&amp;B in portland. Marfa slow-carb readymade, hammock you probably haven’t heard of them esse before they sold out adaptogen keytar elit. Leggings tacos poutine slow-carb eiusmod occupy. You probably haven’t heard of them occaecat etsy, church-key cardigan bespoke scenester meditation disrupt enim occupy chartreuse knausgaard crucifix jean shorts. Cold-pressed dolor actually ullamco farm-to-table brunch ipsum yuccie selvage helvetica food truck meggings YOLO.</p>
+<p>Banjo artisan man bun messenger bag, VHS leggings ex four loko incididunt chia tumeric. Quis put a bird on it portland taxidermy, ex slow-carb keytar. Quis bitters shaman art party taiyaki lorem adaptogen magna organic enamel pin sriracha skateboard glossier single-origin coffee ramps. Tumblr live-edge tofu shaman enamel pin humblebrag.</p>
+<p>Bushwick direct trade jianbing, deserunt roof party meh sustainable vape. Church-key elit vape, kombucha meh ut mlkshk art party man braid af PBR&amp;B. Ipsum williamsburg enamel pin, shoreditch quinoa eiusmod succulents shabby chic pariatur chia master cleanse. Incididunt id velit ullamco everyday carry bushwick gochujang fam ipsum aute XOXO flexitarian art party schlitz duis. Affogato knausgaard fixie lomo woke eiusmod, aute qui master cleanse blog. Deserunt yr qui echo park chia quis irure nostrud semiotics tumblr meditation PBR&amp;B occupy tempor chicharrones.</p>
+<p>Typewriter tote bag tofu cliche lomo af pop-up duis literally beard eu portland flannel. Commodo aliqua fixie pug. Banh mi drinking vinegar typewriter, chicharrones scenester fugiat eiusmod kombucha try-hard lumbersexual. Pok pok taxidermy prism, ugh magna labore intelligentsia non taiyaki duis.</p>
+<p>Oh. You need a little dummy text for your mockup? How quaint.</p>
+I bet you’re still using Bootstrap too…
+</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

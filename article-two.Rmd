@@ -1,7 +1,7 @@
 ---
 title: "Article two"
 author: "Brandon Dey"
-date: "5/8/2018"
+date: "12/01/2019"
 html_document:
     theme: journal
     highlight: null
@@ -16,88 +16,14 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-#Header
+## Hipster Header
 
+Lorem ipsum dolor amet echo park shabby chic tacos four loko, keytar letterpress 90's small batch everyday carry mumblecore shoreditch synth meh sartorial sed. Adaptogen cronut bespoke ad health goth, est messenger bag ut humblebrag dolor XOXO small batch culpa food truck enim. Gluten-free ut in put a bird on it, gentrify normcore ugh glossier affogato shoreditch tofu adaptogen stumptown. Vape edison bulb tattooed palo santo art party fashion axe woke id nostrud umami biodiesel.
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-## More header
+Deserunt stumptown et blog vice intelligentsia literally cloud bread. Anim twee gochujang blog, cray banh mi vegan. Poke food truck wayfarers, 8-bit la croix celiac 90's paleo fingerstache hashtag edison bulb distillery yuccie street art. Sartorial yr lyft asymmetrical tote bag semiotics la croix officia af vaporware gentrify labore, hot chicken flexitarian.
 
+Swag wolf craft beer, anim succulents sunt celiac ut. Tbh schlitz et chartreuse shoreditch affogato dreamcatcher magna ex qui. Cred ut vexillologist, in XOXO farm-to-table pok pok shabby chic waistcoat pop-up qui irony thundercats. Vape kombucha gochujang prism mustache mlkshk normcore brunch incididunt semiotics aute iPhone scenester thundercats.
 
-<br />
-<br />
-<br />
-<br />
-<br />
-# Another Big header
+Meggings crucifix schlitz church-key. Banh mi raclette id, selfies kickstarter in keffiyeh cliche. Bushwick subway tile retro blog pour-over. Helvetica in jianbing small batch tempor pug do. Viral lomo sartorial, four loko veniam letterpress activated charcoal duis PBR&B offal venmo kinfolk vegan. Magna 3 wolf moon proident craft beer. Skateboard raclette et vegan fugiat cold-pressed vaporware man braid bespoke minim.
 
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-# Whoop. Look at that! Another big one!
-
-
-<br />
-<br />
-<br />
-<br />
-<br />
-
-The content on this page will be better than this test boiler plate. 
-<br />
-<br />
-<br />
-<br />
-<br />
-I can't say how *much* better. 
-<br />
-<br />
-<br />
-<br />
-<br />
-But better. 
-
-## Smaller header
-
-
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-### *Even* smaller header!!
-<br />
-<br />
-<br />
-<br />
-<br />
 

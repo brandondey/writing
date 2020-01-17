@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 <meta name="author" content="Brandon Dey" />
 
+<meta name="date" content="2019-12-01" />
 
 <title>Article two</title>
 
@@ -54,9 +55,7 @@ h6 {
 
 <link rel="stylesheet" href="css/style.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -70,13 +69,18 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -92,7 +96,6 @@ body {
   padding-top: 66px;
   margin-top: -66px;
 }
-
 .section h2 {
   padding-top: 66px;
   margin-top: -66px;
@@ -112,6 +115,43 @@ body {
 .section h6 {
   padding-top: 66px;
   margin-top: -66px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -133,19 +173,74 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -189,7 +284,7 @@ $(document).ready(function () {
   <ul class="dropdown-menu" role="menu">
     <li class="dropdown-header">Stories</li>
     <li>
-      <a href="article-two.html">Story 1</a>
+      <a href="article-two.html">Nothing to see here yet, folks!</a>
     </li>
   </ul>
 </li>
@@ -205,7 +300,7 @@ $(document).ready(function () {
       <a href="https://brandondey.github.io">Home</a>
     </li>
     <li>
-      <a href="https://brandondey.github.io/projects/">Projects</a>
+      <a href="https://brandondey.github.io/data-science/">Data Science</a>
     </li>
     <li>
       <a href="https://brandondey.github.io/blog/">Blog</a>
@@ -222,30 +317,18 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore">Article two</h1>
-<h4 class="author"><em>Brandon Dey</em></h4>
-<h4 class="date"><em>5/8/2018</em></h4>
+<h4 class="author">Brandon Dey</h4>
+<h4 class="date">12/01/2019</h4>
 
 </div>
 
 
-<div id="header" class="section level1">
-<h1>Header</h1>
-<p><br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> ## More header</p>
-<p><br /> <br /> <br /> <br /> <br /> # Another Big header</p>
-<p><br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /></p>
-</div>
-<div id="whoop.-look-at-that-another-big-one" class="section level1">
-<h1>Whoop. Look at that! Another big one!</h1>
-<p><br /> <br /> <br /> <br /> <br /></p>
-<p>The content on this page will be better than this test boiler plate. <br /> <br /> <br /> <br /> <br /> I can’t say how <em>much</em> better. <br /> <br /> <br /> <br /> <br /> But better.</p>
-<div id="smaller-header" class="section level2">
-<h2>Smaller header</h2>
-<p><br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /></p>
-<div id="even-smaller-header" class="section level3">
-<h3><em>Even</em> smaller header!!</h3>
-<p><br /> <br /> <br /> <br /> <br /></p>
-</div>
-</div>
+<div id="hipster-header" class="section level2">
+<h2>Hipster Header</h2>
+<p>Lorem ipsum dolor amet echo park shabby chic tacos four loko, keytar letterpress 90’s small batch everyday carry mumblecore shoreditch synth meh sartorial sed. Adaptogen cronut bespoke ad health goth, est messenger bag ut humblebrag dolor XOXO small batch culpa food truck enim. Gluten-free ut in put a bird on it, gentrify normcore ugh glossier affogato shoreditch tofu adaptogen stumptown. Vape edison bulb tattooed palo santo art party fashion axe woke id nostrud umami biodiesel.</p>
+<p>Deserunt stumptown et blog vice intelligentsia literally cloud bread. Anim twee gochujang blog, cray banh mi vegan. Poke food truck wayfarers, 8-bit la croix celiac 90’s paleo fingerstache hashtag edison bulb distillery yuccie street art. Sartorial yr lyft asymmetrical tote bag semiotics la croix officia af vaporware gentrify labore, hot chicken flexitarian.</p>
+<p>Swag wolf craft beer, anim succulents sunt celiac ut. Tbh schlitz et chartreuse shoreditch affogato dreamcatcher magna ex qui. Cred ut vexillologist, in XOXO farm-to-table pok pok shabby chic waistcoat pop-up qui irony thundercats. Vape kombucha gochujang prism mustache mlkshk normcore brunch incididunt semiotics aute iPhone scenester thundercats.</p>
+<p>Meggings crucifix schlitz church-key. Banh mi raclette id, selfies kickstarter in keffiyeh cliche. Bushwick subway tile retro blog pour-over. Helvetica in jianbing small batch tempor pug do. Viral lomo sartorial, four loko veniam letterpress activated charcoal duis PBR&amp;B offal venmo kinfolk vegan. Magna 3 wolf moon proident craft beer. Skateboard raclette et vegan fugiat cold-pressed vaporware man braid bespoke minim.</p>
 </div>
 
 
@@ -265,6 +348,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

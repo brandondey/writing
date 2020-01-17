@@ -1,0 +1,179 @@
+---
+title: | 
+  | \vspace{5cm} \LARGE{} How to Go Without Your Better Half FOR THREE MONTHS!!
+  | \vspace{10cm} \LARGE{}
+author: "Brandon Dey"
+date: "03/01/2018"
+html_document:
+    theme: journal
+    css: css/style.css
+    toc: yes # table of contents
+    toc_depth: 2 # only # header and ## smaller header appear in toc
+    toc_float: true # make toc float as I scroll
+    collapsed: false
+---
+
+
+<!-- title: "How to Go Without Your Better Half" -->
+<!-- date: "11/01/2018" -->
+<!-- html_document: -->
+<!--     theme: journal -->
+<!--     highlight: null -->
+<!--     css: css/style.css -->
+<!--     toc: true # table of contents -->
+<!--     toc_depth: 2 # only # header and ## smaller header appear in toc -->
+<!--     toc_float: true # make toc float as I scroll -->
+<!-- title: "Article two" -->
+<!-- author: "Brandon Dey" -->
+<!-- date: "12/01/2019" -->
+<!-- html_document: -->
+<!--     theme: journal -->
+<!--     highlight: null -->
+<!--     css: css/style.css -->
+<!--     toc: true # table of contents -->
+<!--     toc_depth: 2 # only # header and ## smaller header appear in toc -->
+<!--     toc_float: true # make toc float as I scroll -->
+    
+    
+<!--   output: -->
+<!-- rmarkdown::html_document: -->
+<!--   theme: cerulean -->
+<!--   collapsed: no -->
+<!--   css: /css/style.css -->
+<!--   title: "How to Go Without Your Better Half" -->
+<!-- subtitle: "FOR THREE MONTHS!!" -->
+
+<style type="text/css">
+.main-container {
+  max-width: 624px;  <!-- standard width of 8.5 in page with 1 in margin all around-->
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+<center>Brandon Dey</center> 
+<center>7.29.18</center>
+
+<!-- left indent like a bullet point-less bullet point -->
+<style>
+.nobullet li {
+  list-style-type: none;
+}
+</style>
+
+<!-- | \\vspace{10cm} \\LARGE{} "How to Go Without Your Better Half" \n| \\vspace{10cm} \\LARGE{}\n" -->
+
+
+First, be a little excited. But not so excited that she can tell, and certainly speak not a word of this to her. But she can tell anyway. She is observant. She knows.
+
+Your Other, at 23, will get surgery on each foot, six weeks apart, involving, in total, a metal plate with screws, tens of stitches along raised black incisions, scorched seals to the soft inside, crutches of course, plus a walker with washcloth padding on the handles that she’ll prefer when hobbling about her parents’ place, ninety minutes north, where she has decided to rehab during the next three months because that walker will just not summit the stairs in the two story walk-up you both live in.
+
+Blinded by mild to moderate excitement of the pre-vacation sort, you are ready for “the space” to read, to write, to have more time to hang with friends, to leave the toilet seat up without instant recrimination.
+ 
+Plan to FaceTime nightly and to visit every weekend. Displace local weekend friendships to weeknights. Do not consider how, for multiple months, you’ll be fully responsible for what used to be: approximately 1/7th of the cooking, 1/7th of the cleaning, very little of the on site building manager duties. Fully responsible. By yourself. Prepare to take your casual, somewhat fragile interest in once, maybe twice a week cooking to full blown duty by making notes on your iPhone of tasty recipes containing ingredients she doesn’t like (eggplant, mushrooms, salmon). Grocery shopping. Buy way too little the first week from desire to save money, then too much from the need to live in the next. Stabilize after trial and error and admire her ability to do this effortlessly, week after week. 
+
+Enjoy not hearing her pleas to join her in bed at like 8:30 and catch up on lots of reading, guiltlessly. Read The Reluctant Fundamentalist in a day and finish The Catcher in the Rye. Feel accomplished. You don’t dance in a little celebratory jerk in the living room at this but do randomly after work one day as you jam to music of which she normally says, “This is giving me anxiety.” Wonder why she usually says this about perfectly unanxious music; it’s not hardcore metal or rock. Play as much of this music as possible. 
+
+In your freedom to leave the toilet seat up, continue to put it down so you don’t break the habit for her and have to go through the mildly humiliating process of relearning it via naggy though totally understandable reprimand to, “Please put the seat down, please!”
+
+—
+
+After the excitement fades, realize that this solitude might darken to loneliness. Dread this impeding cloud. She will not be home—to our tiny home—during the holiday season. Even though you two would normally be traveling to visit family anyway, somehow, this enlarges the degree of loneliness. 
+
+Visit her on the weekend. Find yourself trying to convince her that that one flight of stairs wouldn’t be too far to carry her up if she wanted to come home early, if she still couldn’t walk? 
+
+Anticipate seeing her Friday, dread Monday without her. 
+
+Every day pass the handwritten message on the refrigerator whiteboard, which she wrote you the day before she left. Every day reread it. “I’m going to miss you sooo much!!”. Dwell on the emotional depth and meaning of the extra o’s and extra !. Cherish how she wrote it for you. To you. Because of you. In sympathizing with how lonely you might get. Without her. Sometimes, in opening the fridge for food, well up over how special she was to have had this sympathetic foresight. 
+
+You and her manage an apartment building. She normally moves the cars per protocol in the morning. Forget to move the cars one morning, getting scolded by the unfriendly jewelry shop owner trying to park. First thing in the morning. You are most impressionable in the morning so resolve with enormous and inspired conviction, weeks before New Year’s, to do whatever it takes to avoid avoidable forgetfulness. Forget again. Except this time it’s because you got home early from work and had to park on the street and now you’ve forgotten to move the car off the street resulting in a $25 parking ticket. Resolve to improve this too. Mail the ticket with check. Well, try. Discover you’re out of stamps, and put the two in one ticket/envelope, the ticket-elope, somewhere on the desk as Get stamps is added to an iPhone to do list. 
+
+Miss the sound of familiar human voices, hers. Resist the temptation to talk aloud to yourself citing symptoms of any psychopath portrayed in any movie like ever. Then cave, try talking to yourself, why not. 
+
+Stop. Too weird. 
+
+If any of your neighbors heard you, most of whom know Shelby’s gone, they’d freak. Maybe try reading aloud in your bedroom with the door closed. This mitigates the missing voices problem, but makes reading intolerably slow. 
+
+Christmas shopping. On cyber Monday buy her a sweater, a tunic, and a shirt from TheLoft.com, scoring free shipping on account of the order being greater than $75. On account of having deliberately planned to purchase precisely these three items in precisely these sizes on precisely this day to score precisely this cyber-Monday-only deal, you are proud. You smile to yourself at your eCommercial shopping savviness. Share this with her, but claim it was for your Secret Santa, not her. She tells you that the Monday after Thanksgiving, not before, is Cyber Monday. Laugh the laugh of self contempt. 
+
+After work on Friday evening, drive to her, exceeding the speed limit the whole trip. Next day, Saturday, say “I’m so glad we have a whole other day with each other! This weekend is going exactly the right pace”. Next day, Sunday, find what you said yesterday insanely short sighted.  
+
+She tells you one of those statements that’s actually a question you need to respond to: “I’m really craving candy! Mmmm! Oh! My mouth is watering!” She does this. She is very aware of her salivary glands’ response to the mere thought of tasty stimuli. She’s looking at you with a crazed twinkle in her eye born of what looks to be a physiological need for highly processed multi-colored sugar. Kind of intense/scary. Kind of intense/inconvenient to have to run. But there’s her foot, the one with the metal plate and screws, the velcro boot, with her walker just out of sight, and suddenly an urgent desire to satisfy her rises within. Then she says, “I’d even go myself.... If it weren’t for my foot…”, she swivels her whole head, her eyes a dramatic spot light, toward her booted foot. 
+
+You’re on your way to Walgreens to get desired candy: those sour straws, gum balls, and those crispy rice cake things dipped in Fair Trade chocolate. In the individual blue wrappers! These are her recent favorite. 
+
+Arrive and locate them and the sour straw things immediately by following the map she described of the store in uncanny accuracy. Marvel at kind of mental equipment it takes to remember the configuration of the aisles leading to her favorite candy. However, you will spend the next 15 minutes scouring the same 20 feet of wall spilling with diverse candies for the damn gum balls. 
+
+Strategy 1: Browse casually. 
+
+No gum balls. 
+
+Strategy 2: Slightly less casual search in vertical batches of shelves, walking down the aisle, then back. 
+
+No gum balls. 
+
+Strategy 3: Highly systematic row-wise hunt, starting at the top shelf and moving slowly left to right, all the way down a single shelf, then snake back on the next lower shelf, inching back more slowly this time right to left, repeating to bottommost shelf. 
+
+No damn gum balls! 
+
+Strategy 4: Circle the store for a hidden candy aisle. 
+
+No gum balls. And take note of certain female customers looking uncomfortable at how frantic and fast you’re moving. 
+
+Strategy 5: In admitting that it’s possible, however infinitesimally unlikely, that you may have just somehow someway accidentally overlooked the gum balls, search for Gum balls on Walgreens.com after contemplating if it’s one word or two (it’s one) and verify they are carried in store. 
+
+Gumballs! You found them online! Must be close! 
+
+Repeat in-store Strategy 3. 
+
+NO GUMBALLS!!! 
+
+Failsafe strategy 6: Come upon the friendly female sales associate who asks with surprising humanity, “Are you finding everything alright, sir?” and say Actually, not so much, no, which leads to learning that it turns out they sometimes just carry things seasonally and you can check back around Easter probably. 
+
+Improvise a No-Gumball Plan B: Buy two SUPER BLOW POPS, SOUR APPLE & BLUE RAZZ, with gumball center. 
+
+Head back to your Other’s parents’ and, down a cross street’s intersection, spot a train travelling parallel to your direction, and hope you don’t get stuck at the tracks just before their house. That was optimistic you think, while stuck, your eyes chasing a wall of bubbly graffiti rolling by, waiting. Wonder how the graffiti artists could see what they were doing when vandalized, probably at night. Decide they must have brought lights or they done their deed at high noon. Mention none of this upon delivery of the candy. Bid her and family adios! and love after she implores you to please drive sooo safe, please! And don’t speed, please! Your promises of “Of course I won’t” will still be echoing as you join the endless stream of Southbound Sunday night traffic, a chain of unbroken red eyes winding their way back home, away from her. 
+
+Setting the cruise control at exactly the speed limit, 70, force your Kia Soul into the slow lane. This will be difficult. This turns out to be difficult, especially when the other cars in the slow lane don’t even go the speed limit and you have to drop your cruise control to sub speed limit levels. In impatience pass two cars via fast lane, carefully observing how you’ve exceeded 70, broken your promise. Return immediately to slow lane! Here you do not feel you are breaching your Other’s trust and confidence and everything you stand for. Dwell on how slow the slow lane is, how you never drive in the slow lane, not since you basically had to when adults drove in your car back when you were learning how to drive and you felt they’d immediately revoke your recent adult privilege if you didn’t. You reckon you’d save like 8 minutes over the whole trip if you just joined the cool kids a few feet to your left. But the endless whir of red chasing white speeds past, your needle still fixed resolutely, a welcome accountability partner that came stock. 
+
+
+—
+
+You can’t sleep because the wind is rampaging, a howling insanity, so angrily dig up the ear plugs buried in your toolbox at 1AM. Use her pillow. Sleep better.
+
+You should spend more time with friends. So when you go to play tennis with a colleague at a nearby university court, actually end up not because the track team is pole vaulting on the courts, but then ask the nearby student worker who looks like a male lifeguard, if the court is reservable anyway and he’ll say, “Shaun at the front desk will know. He’s a senior.” Track Shaun the senior down who, turn outs, is less competent than his reputation with such things implied so wind up just getting dinner with the colleague and talk about his mom’s gray tabby cat who had her congested heart drained just before she was put down the day before Thanksgiving. She was 15. Pretty old for a cat. You end up surprising yourself after really connecting with this colleague over anecdotes about your childhood cat, who was more meaningful than you ever thought he’d be. Your tennis racket sits next to you. 
+
+Grab lunch at a build-your-own-pizza joint with a new colleague who orders a thin crust without meat which she’s doesn’t finish. She doesn’t offer the rest to you. That would be strange and weird. At lunch your Other gave you her extras, her tomatoes, her mushrooms, her chicken. This was terrific. 
+
+Say yes when your aunt and uncle invite you to a Big Bad Voodoo Daddy Wild & Swingin’ Christmas concert and, there, comment on all the old timers in attendance, where, from the back row, they are a field of wispy gray poofs hardly bobbing to zippidy do boppin’ Jingle Bells a la N'awlins. Skinny white men play horns with violent skill in baggy suits. They encore. 
+Everyone at this concert knows each other. One wrinkly man sees one of his less wrinkly friends, who is wearing a Frank Sinatra hat, and says, I like your hat, and his response is, “Thanks, a hat for every occasion.” With a cheerful twinkle in his eye, he winks. 
+
+It’s Saturday morning and you’re getting ready to go see her, finally, and you’re staring into your closet, preparing to don. You reach for your favorite shirt, the salmon and off-orange plaid one, the one you’ve had since Sophomore year in college, the one with the unhideably large tear in the left elbow that shows even when you roll the sleeves. Wear it, smile, comfortable, casual. Then frown, remembering how much she dislikes this shirt, how she’s probably not trashed it while you were gone to avoid Other overreach. She’s not seen you in a week. This shirt will somewhat upset her. She will make a comment as soon as you walk through that door. 
+
+Guaranteed. 
+
+Sigh it back on its hanger and instead pull on the purple flannel the color of Patagonian sunsets she bought for your birthday a few years back. This she will comment on, after a kiss. 
+
+Your brother is in town with two of his marine corps friends. The one wearing Adidas windpants shows you how to buy weed with weedmapsⓇ, an app with customer reviews of various strains of plump weed nuggets and delivery routes, and the one with a blonde beard and Chevrolet hat with denim bill shares his love of EDM music and his upcoming plans to visit Machu Picchu. 
+
+Your brother tells you his autistic brother in-law may or may not have shoved the lens of his glasses up his rear. The doctor couldn’t find it. It’s still missing. 
+
+When the pressure builds, heavy and hard, between your legs; when it grows from peace to ambush; when it is eager to coax a habitual surrender from you; then still resist the urge. Prioritize her. Yet seesaw: crave resist crave resist crave…
+
+Note one day that activities have become characterized by how you can’t share them with her. They are an absence, a void, emptiness. 
+
+
+
+
+
+
+Dead space. 
+
+
+
+
+
+Wonder who you are. Wonder where she begins and you end. When she’ll be home.
+
+
+
