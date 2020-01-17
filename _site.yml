@@ -5,12 +5,8 @@ navbar:
   right:
     - text: "non-fiction"
       menu:
-      - text: "Filler"
-        href: shelby-dey.html
       - text: "Consider the Fly"
         href: fly-sympathizer.html
-        - text: "How to Go Without Your Better Half For THREE MONTHS!!"
-        href: how_to_go_without_your_better_half_for_three_mos.html
     - text: "fiction"
       menu:
       - text: "Stories"
