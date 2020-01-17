@@ -79,7 +79,7 @@ Hear that implied, *"But you're not saying anything!"*?
 
 What follows is the start of multi-post hand-waving to justify these three points and demonstrate an application of data science, in the wild. If you don't want to wait, the gist of what I do, in an italicized nutshell, is:
 
-> *My job is to make sense of — and use — lots and lots of data so the business makes money, operates more efficiently, and/or makes better decisions about an unknowable future.*
+> *My job is to make sense of — and use — lots and lots of data so the business makes money, operates more efficiently, and/or makes better decisions about an unknowable future. A data scientist does this by designing, engineering, and monitoring algorithms.*
 
 This might be pretty abstract -- toeing line coy -- to the uninitiated. But stick with me. The reason is that data science and its applications are easier seen and *used* than explained. Some guy you've never heard of said this well a long time ago: 
 
