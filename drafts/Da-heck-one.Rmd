@@ -1,17 +1,15 @@
 ---
-title: | 
-  | \vspace{5cm} \LARGE{} What do you do, but really?
-  | \vspace{10cm} \LARGE{}
-subtitle: "A data scientist answers for the non-Technorati"
-author: "Brandon Dey"
-date: "5/12/2018"
 html_document:
-    theme: journal
-    css: css/style.css
-    toc: yes # table of contents
-    toc_depth: 2 # only # header and ## smaller header appear in toc
-    toc_float: true # make toc float as I scroll
-    collapsed: false
+  collapsed: no
+  css: css/style.css
+  theme: journal
+  toc: yes
+  toc_depth: 2
+  toc_float: yes
+title: |
+  | \vspace{5cm} \LARGE{} But what do you do, like really?
+  | \vspace{10cm} \LARGE{}
+subtitle: A Data Scientist answers for the non-Technorati
 ---
 <br />
 <br /> 
@@ -27,7 +25,7 @@ html_document:
 </style>
 
 <center>Brandon Dey</center> 
-<center>7.29.18</center>
+<center>1.17.20</center>
 
 <!-- left indent like a bullet point-less bullet point -->
 <style>
@@ -37,7 +35,7 @@ html_document:
 </style>
 <br />
 <br />
-  It's rare I'm completely certain of something, but I *know* I do an insufficient job of describing what I do for a living, becuase the same members of family and friend groups ask me the *same* question almost every time we meet:
+  It's rare I'm completely certain of something. But I *know* I do an insufficient job of describing what I do for a living becuase the same family and friends ask me the *same* question a lot:
 <br />
 <div class="nobullet"> * *"So tell me what you do again. You work with computers or something? In IT?"*</div>
 <div class="nobullet"> * *"Computers, yea ... I work in data science, which you're right: is IT."*</div>

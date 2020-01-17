@@ -2,7 +2,7 @@
 title: |
        | \vspace{5cm} \LARGE{} Consider the Fly
        | \vspace{10cm} \LARGE{}
-subtitle: A data scientist answers for the non-Technorati
+subtitle: subtitle
 author: "Brandon Dey"
 date: "5/12/2018"
 html_document:

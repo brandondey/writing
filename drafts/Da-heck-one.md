@@ -4,8 +4,8 @@ output:
     theme: cerulean
   collapsed: no
   css: /css/style.css
-subtitle: A data scientist answers for the non-Technorati
-title: "| \\vspace{10cm} \\LARGE{} “What do you do, but really?” \n| \\vspace{10cm}
+subtitle: A Data Scientist answers for the non-Technorati
+title: "| \\vspace{10cm} \\LARGE{} “But what do you do, like really?” \n| \\vspace{10cm}
   \\LARGE{}\n"
 ---
 <style type="text/css">
@@ -17,7 +17,7 @@ title: "| \\vspace{10cm} \\LARGE{} “What do you do, but really?” \n| \\vspac
 </style>
 
 <center>Brandon Dey</center> 
-<center>7.29.18</center>
+<center>1.17.20</center>
 
 <!-- left indent like a bullet point-less bullet point -->
 <style>
@@ -40,10 +40,6 @@ Then I try to fabricate a sense of suspense, and pause.
 <br />
 <br />
 This has never fabricated suspense. 
-<br />
-<br />
-<br />
-<br />
 <br />
 <br />
 <br />

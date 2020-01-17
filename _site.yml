@@ -5,8 +5,10 @@ navbar:
   right:
     - text: "non-fiction"
       menu:
-      - text: "Consider the Fly"
-        href: fly-sympathizer.html
+      - text: "Da Heck's a Data Scientist?"
+        href: Da-heck-one.html
+        - text: "Test"
+        href: article-two.html
     - text: "fiction"
       menu:
       - text: "Stories"
