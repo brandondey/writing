@@ -32,12 +32,16 @@ Recall we’re working out the answer to the question you never knew you wanted 
 
 #### "Data science sounds made up"
 
-And it is; but like how mathematics, computer science, and statistics were "made up", not like how fake news is. Data science was kind of aggressively whispered into existence in 1962 after [John W. Tukey](https://en.wikipedia.org/wiki/John_Tukey), a giant of both statistics and computer science — he coined the term "bit"^[A bit is a collection of 1’s and 0’s computers use to store information. 1 means yes, 0 no. Infinitely complicated pieces of information can be stored in large, Matrix-like grids of this binary. This is important to data scientists because we use computers for what computers are good at: processing sets of explicit, logical instructions quicker than people.] in 1947 —, published an article that was half rallying cry^[Tukey starts a number of sentences with “We [statisticians] need to face up to…” and finishes the piece with: “Who is for the challenge?”], half proof titled "The future of Data Analysis" in the The Annals of Mathematical Statistics. He argued the field of statistics wasn’t inclusive enough for the nature of their work anymore, and statisticians everywhere better loosen the heck up and advance their field already like the smarty pants’ in hard sciences like biochemistry did.
+And it is; but like how mathematics, computer science, and statistics were "made up" -- not like how fake news is. Data science was kind of aggressively whispered into existence in 1962 after [John W. Tukey](https://en.wikipedia.org/wiki/John_Tukey), a giant of both statistics and computer science — he coined the term "bit"^[A bit is a collection of 1’s and 0’s computers use to store information. 1 means yes, 0 no. Infinitely complicated pieces of information can be stored in large, Matrix-like grids of this binary. This is important to data scientists because we use computers for what computers are good at: processing sets of explicit, logical instructions quicker than people.] in 1947 —, published an article that was half rallying cry^[Tukey starts a number of sentences with “We [statisticians] need to face up to…” and finishes the piece with: “Who is for the challenge?”], half proof titled "The future of Data Analysis" in the The Annals of Mathematical Statistics. He argued the field of statistics wasn’t inclusive enough for the nature of their work anymore, and statisticians everywhere better loosen the heck up and advance their field already like the smarty pants’ in hard sciences like biochemistry did.
 
 
 #### The Point:
 
 Data science wasn’t just made up; it’s the 50+ year old intellectual offspring of computer science and statistics, emerging to solve new problems that existed because the rules of statistics no longer applied to data of increasing size, and so demanded the increased computational muscle of computer science. Now that it’s of age, data science has really gotten around, going to bed with the tools from a suite of scientific domains including ecology, epidemiology, computational linguistics, biology, and economics. 
+
+** TWEAK START V **  
+
+*****
 
 #### Another Point
 
@@ -45,6 +49,10 @@ This looks like a data scientist is overextending the reach of data science to l
 
 
 **This one is up for debate since genomics work might be more the work of, oh I don’t know, genomics, and not data science. But on the pro data science side, lots of data scientists just cherry pick the techniques that work the best, not much minding what field they’re from, just so long as all the model assumptions jive with the application. Once we do that, it counts as a +1 for Team Data Science.**
+
+** TWEAK END **
+
+*****
 
 #### The Point’s Point: 
 
@@ -69,6 +77,7 @@ Beyond the small walls of Community Dork lie vast regions of the economy reaping
 
 The hard nuts data scientists are trying to crack are mostly cultural^[I'm conjecturing given that a culture’s rich info-trove eschews programmatic study because it’s pretty complex, or, aka: doesn’t fit into rows and columns nicely.]. Algorithm's are influencing culture. Think first of the physics and monetization of social networks on social media platforms LinkedIn, Twitter, and Facebook. Think second: art à la algorithm. 
 
+*****
 
 #### Machines Mold Movies, Music, Masses, & More
 
